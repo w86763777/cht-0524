@@ -1,0 +1,24 @@
+# crawler
+pandas
+beautifulsoup4
+hanzidentifier
+requests
+
+# huggingface
+bitsandbytes
+datasets
+peft
+tensorboard
+torch
+transformers
+
+# langchain
+chromadb
+langchain
+langchain-community
+pysqlite3-binary
+sentence-transformers
+tqdm
+
+# app
+streamlit
