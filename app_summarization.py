@@ -25,7 +25,7 @@ def prepare(model_path: str, base_model: str, lora: bool):
     # Disable FutureWarnings from `huggingface_hub`.
     warnings.simplefilter(action='ignore', category=FutureWarning)
 
-    dataset = Dataset.from_csv('./finetune/dataset.csv')
+    dataset = Dataset.from_csv('./dataset.csv')
     # set seed for reproducibility
     datasets = dataset.train_test_split(test_size=0.2, seed=0)
     dataset = datasets['test']
