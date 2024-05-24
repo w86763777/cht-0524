@@ -16,6 +16,7 @@ transformers
 chromadb
 langchain
 langchain-community
+langchain-huggingface
 pysqlite3-binary
 sentence-transformers
 tqdm
